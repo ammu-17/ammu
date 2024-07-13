@@ -9,6 +9,12 @@
 .justify-center{
     justify-content: center;
 }
+.none{
+    text-decoration: none;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
 .mt-48{
     margin-top: 48px;
 }
