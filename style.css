@@ -381,6 +381,7 @@ p{
     }
     .portfolio-tit {
         margin: 4px;
+        font-size: 22px;
     }
     .div-gap {
         padding-top: 18px;
@@ -428,6 +429,9 @@ p{
     }
     .mt-md{
         margin-top: 32px;
+    }
+    p{
+        font-size: 18px;
     }
 }
 
