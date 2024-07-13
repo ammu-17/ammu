@@ -63,8 +63,6 @@ body {
     font-weight: 700;
 }
 .home_sec{
-    width: 417px;
-    margin:  0 auto;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -183,17 +181,12 @@ p{
     font-size: 20px;
     font-weight: 400;
 }
-.w-1024{
-    width: 1024px;
-    margin: 0 auto;
-}
+
 .card_gap{
     margin-top: 98px;
 }
 .container {
     text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
 }
 .profile-section {
     position: relative;
@@ -259,14 +252,8 @@ p{
 .arrow {
     font-size: 1.5rem;
 }
-.container-390{
-    width: 276px;
-    margin: 0 auto;
-}
 .container-800 {
     text-align: center;
-    width: 800px;
-    margin: 0 auto;
 }
 .tools-section {
     display: flex;
@@ -309,10 +296,31 @@ p{
 .sec-rw{
     padding-top: 72px;
 }
+@media only screen and (min-width: 1100px){
+    .home_sec{
+        width: 417px;
+        margin:  0 auto;
+    }
+    .w-1024{
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .container-390{
+        width: 276px;
+        margin: 0 auto;
+    }
+    .container-800 {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
 /* Mobile Devices (max-width: 600px) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 999px) {
     .home_sec {
-        width: 100%;
         padding: 0 16px;
         text-align: center;
     }
@@ -339,10 +347,15 @@ p{
         width: 100px;
         height: 100px;
     }
-    .container, .w-1024, .container-800, .container-390 {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 16px;
+    .w-1024, .container {
+        padding: 0px 24px;
+    }
+    .container-390{
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section-pt{
+        padding-top: 0px;
     }
     .project-section .d-flex{
         display: flex;
@@ -391,46 +404,6 @@ p{
     .profile-sec .dt_subtit{
         margin: 0px;
     }
-}
-
-/* Tablet Devices (max-width: 1024px) */
-@media only screen and (max-width: 1024px) {
-    .home_sec {
-        width: 100%;
-        padding: 0 32px;
-        text-align: center;
-        margin-top: 48px;
-    }
-    .gap-40, .gap-56 {
-        gap: 32px;
-    }
-    .head_tit, .dt_title, .dt_subtit {
-        font-size: 28px;
-        line-height: 36px;
-    }
-    .span {
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    .primary-btn, .secondary-btn {
-        width: 100%;
-        padding: 14px 20px;
-        font-size: 15px;
-    }
-
-    .profile-section {
-        margin: 0px 0px 16px 0px;
-    }
-    .profile-pic {
-        width: 120px;
-        height: 120px;
-    }
-    .container, .w-1024, .container-800, .container-390 {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 32px;
-    }
     .contact-icon {
         width: 40px;
         height: 40px;
@@ -451,3 +424,4 @@ p{
         margin-top: 32px;
     }
 }
+
