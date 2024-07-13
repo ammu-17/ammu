@@ -429,6 +429,9 @@ p{
     }
     .mt-md{
         margin-top: 32px;
+    }   
+     .secondary-sec {
+        margin-top: 8px;
     }
     p{
         font-size: 18px;
